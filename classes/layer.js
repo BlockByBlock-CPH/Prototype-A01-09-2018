@@ -11,7 +11,6 @@ import * as turf from '@turf/turf'
 
 //Classes
 import ServiceLayer from './services';
-//import MapBBB from './map';
 
 export default class LayerQuery{
     constructor(){
