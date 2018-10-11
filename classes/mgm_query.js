@@ -231,21 +231,6 @@ export default class MgmQuery{
                                     duration: 26000
                                 }
                         }
-                        // ,                  
-                        // {
-                        //         type: 'spline',
-                        //         name: 'hour # people',
-                        //         data: a,
-                        //         color: '#4572A7',
-                        //         animation: {
-                        //             duration: 26000
-                        //         },
-                        //         marker: {
-                        //                 lineWidth: 2,
-                        //                 lineColor: Highcharts.getOptions().colors[2],
-                        //                 fillColor: 'white'
-                        //                 }
-                        // }
                         ]
                 });
         }
@@ -546,21 +531,6 @@ export default class MgmQuery{
                     name: '23',
                     data: x
                 }
-                // ,                 
-                // {
-                //     type: 'spline',
-                //     name: 'Max # people',
-                //     data: serieLine,
-                //     color: '#4572A7',
-                //     marker: {
-                //         lineWidth: 2,
-                //         lineColor: Highcharts.getOptions().colors[2],
-                //         fillColor: 'white'
-                //     },
-                //     animation: {
-                //         duration: 7000
-                //     }
-                // }
             ]
         });
     }
